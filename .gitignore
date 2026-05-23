@@ -1,0 +1,21 @@
+## .NET build output
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userprefs
+
+## Rider / Visual Studio
+.vs/
+.idea/
+*.swp
+
+## Test results
+TestResults/
+coverage*.xml
+*.coverage
+
+## Local Azure configuration (DO NOT commit your subscription key)
+appsettings.json
+appsettings.Local.json

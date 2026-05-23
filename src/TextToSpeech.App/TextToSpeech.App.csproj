@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>TextToSpeech.App</RootNamespace>
+    <AssemblyName>TextToSpeech.App</AssemblyName>
+    <!-- Allow restoring/building the WPF (Windows) target on non-Windows CI for verification. -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TextToSpeech.Core\TextToSpeech.Core.csproj" />
+  </ItemGroup>
+
+</Project>
