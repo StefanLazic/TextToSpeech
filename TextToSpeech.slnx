@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TextToSpeech.App/TextToSpeech.App.csproj" />
+    <Project Path="src/TextToSpeech.Core/TextToSpeech.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TextToSpeech.Core.Tests/TextToSpeech.Core.Tests.csproj" />
+    <Project Path="tests/TextToSpeech.IntegrationTests/TextToSpeech.IntegrationTests.csproj" />
+  </Folder>
+</Solution>
